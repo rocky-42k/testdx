@@ -57,7 +57,7 @@ node {
                     rc = sh returnStatus: true, script: "\"${toolbelt}\" force:source:push --targetusername ${SFDC_USERNAME}"
               }else{
                   //rc = bat returnStatus: true, script: "\"${toolbelt}\" force:source:push --targetusername ${SFDC_USERNAME}"
-                  rc = bat returnStatus: true, script: "\"${toolbelt}\" force:source:deploy --targetusername admin@rachit4dx.com" -m CustomObject,ApexClass
+                  rc = bat returnStatus: true, script: "\"${toolbelt}\" force:source:deploy --targetusername admin@rachit4dx.com -m CustomObject,ApexClass"
               }
             if (rc != 0) {
                 error 'push failed'
