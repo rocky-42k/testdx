@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>avcs__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>obnce__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
